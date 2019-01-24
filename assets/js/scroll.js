@@ -1,0 +1,1 @@
+$(document).ready(function(){$(this).scroll(function(){var o=$(this).scrollTop();o>100&&$("#totop").fadeIn(),0==o&&$("#totop").fadeOut()}),$("#totop").click(function(){$(document).scrollTop(0)})});
